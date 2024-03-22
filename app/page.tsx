@@ -117,7 +117,6 @@ export default function Home() {
           transform: imageReady
             ? "translateX(0) rotateX(20deg) rotateY(20deg)"
             : "translateX(-100vw)",
-
           boxShadow: "0 10px 20px 0 rgba(0,0,0,0.2)",
         }}
       >
