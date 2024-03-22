@@ -7,7 +7,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   const { text } = req.body;
 
   if (!text) {
-    return res.status(400).json({ error: 'Missing text in request body' });
+    //return res.status(400).json({ error: 'Missing text in request body' });
   }
 
   try {
